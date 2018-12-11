@@ -27,3 +27,5 @@ class App extends React.components {
     )
   }
 }
+
+export deffault App;
