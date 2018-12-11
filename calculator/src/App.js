@@ -6,7 +6,7 @@ import "./App.css";
 
 class App extends React.components {
   constructor(props) {
-    super(props):
+    super(props);
     this.state = {
       total: null,
       next: null,
