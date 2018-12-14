@@ -1,7 +1,7 @@
 import React from "react";
 import display from "./display";
 import buttonPanel from "./buttonPanel";
-import calculate from "../logic/calclate";
+import calculate from "../logic/calculate";
 import "./App.css";
 
 class App extends React.components {
@@ -28,4 +28,4 @@ class App extends React.components {
   }
 }
 
-export deffault App;
+export default App;

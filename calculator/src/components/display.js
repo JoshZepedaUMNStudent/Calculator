@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import "./display.css";
 
-class display extends React.component {
+class display extends React.components {
     render() {
         return (
             <div className="component-display">

@@ -1,6 +1,6 @@
 import Big from "big.js";
 
-import operate from ".operate";
+import operate from "./operate";
 import isNumber from "./isNumber";
 
 export default function calculate (obj, buttonName) {
@@ -86,7 +86,7 @@ export default function calculate (obj, buttonName) {
             return {next: (-1 * parseFloat(obj.next)).toString() };
         }
         if (obj.total) {
-            return {total: (-1 * parseFloat(ogj.total)).toString() };
+            return {total: (-1 * parseFloat(obj.total)).toString() };
         }
         return {};
     };
